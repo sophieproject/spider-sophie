@@ -1,0 +1,31 @@
+{
+  "name": "spider-sophie",
+  "version": "1.0.0",
+  "description": "A bot that crawls sites for bad content",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sophieproject/spider-sophie.git"
+  },
+  "keywords": [
+    "crawler",
+    "sophiebot",
+    "parental-control"
+  ],
+  "author": "The Sophie Foundation",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/sophieproject/spider-sophie/issues"
+  },
+  "homepage": "https://github.com/sophieproject/spider-sophie#readme",
+  "dependencies": {
+    "better-sqlite3": "^7.1.2",
+    "cheerio": "^1.0.0-rc.5",
+    "puppeteer": "^5.5.0",
+    "request": "^2.88.2",
+    "request-promise": "^4.2.6"
+  }
+}
